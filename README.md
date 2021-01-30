@@ -6,9 +6,14 @@ Using and setting up SimpleScrape is as easy as 1, 2, 3!
 const SimpleScrape = require('SimpleScrape');
 
 SimpleScrape.browser('chrome'); // Select web browser
-SimpleScrape.gotoWebsite('http://google.com'); // Go to a website
+SimpleScrape.goto('http://google.com'); // Go to a website
 SimpleScrape.get('q', true, ["Hi", Keys.RETURN]); // Parameters: element, send keys?, keys to send
 ```
+
+# Docs
+`browser()` - Sets the web browser to use
+`goto()` - Goes to a website
+`get()` - Get an element on the website, send keys (third param.) if true (second param.)
 
 ### Use webdriver-manager to update, if you get an update error!
 
