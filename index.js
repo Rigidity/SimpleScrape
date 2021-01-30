@@ -20,12 +20,16 @@ const browser = async(select="chrome", key="") => {
     }
 }
 
-const gotoWebsite = async(website="https://google.com") => {
-    await driver.get(website);
+const goto = async(website="https://google.com") => {
+    return await driver.get(website);
 }
 
 const get = async(element="q", sendKeys=false, send=["SimpleScraper",Key.RETURN]) => {
-    await driver.findElement(By.name(element)).sendKeys(send);
+    if(keys) {
+        return await driver.findElement(By.name(element)).sendKeys(send);
+    } else {
+        return await driver.findElement(By.name(element));
+    }
 }
 
 module.exports = {
