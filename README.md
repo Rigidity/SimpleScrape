@@ -2,7 +2,7 @@
 Using and setting up SimpleScrape is as easy as 1, 2, 3!
 
 # Getting started
-```
+```js
 const SimpleScrape = require('SimpleScrape');
 
 SimpleScrape.browser('chrome'); // Select web browser
@@ -11,3 +11,5 @@ SimpleScrape.get('q', true, ["Hi", Keys.RETURN]); // Parameters: element, send k
 ```
 
 ## Use webdriver-manager to update, if you get an update error!
+
+**For developers using this GitHub: SimpleScrape uses selenium-webdriver**
