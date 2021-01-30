@@ -15,7 +15,7 @@ SimpleScrape.get('q', true, ["Hi", Keys.RETURN]); // Parameters: element, send k
 `goto()` - Goes to a website <br>
 `get()` - Get an element on the website, send keys (third param.) if true (second param.)
 
-### Use webdriver-manager to update, if you get an update error! <br>
+### Use webdriver-manager to update, if you get an update error! <br><br>
 
 **For developers using this GitHub: SimpleScrape uses selenium-webdriver**
 
