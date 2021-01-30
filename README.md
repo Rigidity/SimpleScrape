@@ -11,8 +11,8 @@ SimpleScrape.get('q', true, ["Hi", Keys.RETURN]); // Parameters: element, send k
 ```
 
 # Docs
-`browser()` - Sets the web browser to use
-`goto()` - Goes to a website
+`browser()` - Sets the web browser to use <br>
+`goto()` - Goes to a website <br>
 `get()` - Get an element on the website, send keys (third param.) if true (second param.)
 
 ### Use webdriver-manager to update, if you get an update error!
