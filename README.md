@@ -18,3 +18,5 @@ SimpleScrape.get('q', true, ["Hi", Keys.RETURN]); // Parameters: element, send k
 ### Use webdriver-manager to update, if you get an update error!
 
 **For developers using this GitHub: SimpleScrape uses selenium-webdriver**
+
+**Note: I do not reccomend using this; you should use Puppeteer. This is still a prototype and has very little features**
