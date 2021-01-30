@@ -10,6 +10,6 @@ SimpleScrape.gotoWebsite('http://google.com'); // Go to a website
 SimpleScrape.get('q', true, ["Hi", Keys.RETURN]); // Parameters: element, send keys?, keys to send
 ```
 
-## Use webdriver-manager to update, if you get an update error!
+### Use webdriver-manager to update, if you get an update error!
 
 **For developers using this GitHub: SimpleScrape uses selenium-webdriver**
